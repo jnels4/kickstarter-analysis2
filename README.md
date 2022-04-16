@@ -30,9 +30,9 @@ The next phase of analysis focused on the requested goal and it's associated rat
 
 ### Challenges and Difficulties Encountered
 
-Challenge 1: Creating goal bands and making sure that the correct totals added up.  To address this challenge, I first created my formulas for each of the 12 groups, ensuring there were no syntactical errors.  I then created a formula to sum up my count.  Next, I created a COUNTIF() that would total all of the kickstarter play campaigns with a goal greater than 0.  If the sum of my current data AND the COUNTIF() matched, I knew I had the correct number of campaigns.  I did this for Success/Failed/Cancled projects to ensure my count was correct.
+Challenge 1: Creating goal bands and making sure that the correct totals added up.  To address this challenge, I first created my formulas for each of the 12 groups, ensuring there were no syntactical errors.  I then created a formula to sum up my count.  Next, I created a COUNTIF() that would total all of the kickstarter play campaigns with a goal greater than 0.  If the sum of my current data AND the COUNTIF() matched, I knew I had the correct number of campaigns.  I did this for Success/Failed/Canceled projects to ensure my count was correct.
 
-Challenge 2: Tedious modification.  Creating 12 disctinct formulae was both tedious, time consuming and prone to error.  To work more efficiently, I horizontally copied my formula into the 2 adjacent cells (Success -> failed & cancled), I then highlighted the "failed" row, and used find&replace to change success to fail.  I did this for the cancled column as well.  To ensure my counts were still correct, I used the same method from challenge 1 to double check my work.
+Challenge 2: Tedious modification.  Creating 12 disctinct formulae was tedious, time consuming and prone to error.  To work more efficiently, I horizontally copied my formula into the 2 adjacent cells (Success -> failed & canceled), I then highlighted the "failed" row, and used find&replace to change success to fail.  I did this for the canceled column as well.  To ensure my counts were still correct, I used the same method from challenge 1 to double check my work.
 
 Challenge 3: Effciency is king.  I used the new Outcomes table to create a pivot chart to produce the line graph needed for analysis.
 
@@ -49,6 +49,6 @@ Challenge 3: Effciency is king.  I used the new Outcomes table to create a pivot
     3. The data shows no metrics for if successful campaigns went on to be officially launched for consumption.
     4. There is no information on kickstarter success vs actual revenue for a project.
 - What are some other possible tables and/or graphs that we could create?
-    1. We can look specifically at Launch date + Goal.  We can use this new table to determine how successful a campaign is by its launch date and requested goal.
-    2. We can analysis of the entire theater subcategory, not just plays.  This would give a better idea of how the entire category is distributed success/fail wise.
+    1. We can look specifically at Launch date + Goal.  We can use this new table to determine how successful a campaign is by its launch date and requested goal.  We could overlay the two line graphs we already created to get a larger picture of the trends contained within the data.  This would allow us to provide a more realistic and specific suggestion for our client. For example: it's possible that a contributor may donate more during july, thus we could reasonably tell our client that if they were to create a campaign during july, they could create it with a higher inital goal. 
+    2. We can analyze the entirety of the theater subcategory, not just plays.  This would give a better idea of how the entire category is distributed success/fail wise.
     3. We can also look at kickstarters for theater space and see if it makes sense to also suggest a concurrent campaign to purchase/renovate a theater space.
