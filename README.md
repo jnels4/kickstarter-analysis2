@@ -17,11 +17,15 @@ This analyis went through two main phases. Firstly the analysis of outcomes (suc
 
 The first phase of analysis was to look at how successful (or not) a campaign was based on it's launch date.  We created a view of our kickstarter data that focused on the parent category - theater - and the years of data we had (2009 - 2017), based on this view, and the associated chart (see below), it seems as if historically the most successful month to launch a campaign is May, followed by June and July.  Historically, May saw 111 successful campaigns, 52 failed campaigns and 3 cancled campaigns.  May shows a 67% success over the years 2009 through 2017, and proves to be the month with the highest percentage of successful campaigns. June (65%) and July (63%), are close runners-up for successful kickstarter theater campaigns.
 
+![TheaterOutcomesVsLaunch](https://user-images.githubusercontent.com/6634774/163687631-1e7a05dc-426d-4e0b-a494-2c7fb4155ef6.png)
+
+
 ### Analysis of Outcomes Based on Goals
 
 The next phase of analysis focused on the requested goal and it's associated rate of success (see chart below).  For this phase, we looked specifically at kickstarters for plays, as our client is interested in producing a play.  We created "goal bands", to group the goals within a range of requested funding.  From this view, we concluded that a campaign created with a goal of lesss than $5000, would potentially see the greatest success.  The band for campaign created below 1000 saw a 76% success rate, and campaigns created with a requested goal of 1000 to 4999 saw a 73% success rate.  It would be reasonable to suggest that our client create a campaign that can be funded for less than $5000. 
 
 
+![OutcomesVsGoals](https://user-images.githubusercontent.com/6634774/163687644-d263e90f-b4ae-46f8-9eb7-e6cfbf4fb324.png)
 
 
 ### Challenges and Difficulties Encountered
