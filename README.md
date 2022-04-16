@@ -22,7 +22,7 @@ The first phase of analysis was to look at how successful (or not) a campaign wa
 
 ### Analysis of Outcomes Based on Goals
 
-The next phase of analysis focused on the requested goal and it's associated rate of success (see chart below).  For this phase, we looked specifically at kickstarters for plays, as our client is interested in producing a play.  We created "goal bands", to group the goals within a range of requested funding.  From this view, we concluded that a campaign created with a goal of lesss than $5000, would potentially see the greatest success.  The band for campaign created below 1000 saw a 76% success rate, and campaigns created with a requested goal of 1000 to 4999 saw a 73% success rate.  It would be reasonable to suggest that our client create a campaign that can be funded for less than $5000. 
+The next phase of analysis focused on the requested goal and it's associated rate of success (see chart below).  For this phase, we looked specifically at kickstarters for plays, as our client is interested in producing a play.  We created "goal bands", to group the goals within a range of requested funding.  From this view, we concluded that a campaign created with a goal of less than $5000, would potentially see the greatest success.  The band for campaign created below 1000 saw a 76% success rate, and campaigns created with a requested goal of 1000 to 4999 saw a 73% success rate.  It would be reasonable to suggest that our client create a campaign that can be funded for less than $5000. 
 
 
 ![OutcomesVsGoals](https://user-images.githubusercontent.com/6634774/163687644-d263e90f-b4ae-46f8-9eb7-e6cfbf4fb324.png)
